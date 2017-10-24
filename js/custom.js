@@ -9,14 +9,14 @@ jQuery(document).ready(function( $ ) {
   $("#hero .rotating").Morphext({
     animation: "flipInX",
     separator: ",",
-    speed: 3000
+    speed: 1850
   });
 
   // About section rotating texts
   $("#about .rotating").Morphext({
-    animation: "flipInX",
+    animation: "fadeIn",
     separator: ",",
-    speed: 1500
+    speed: 1000
   });
 
   // Initiate the wowjs
